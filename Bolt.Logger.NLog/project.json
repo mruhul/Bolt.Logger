@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-beta-2",
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "Bolt.Logger": "2.0.0-beta-2",
+    "NLog": "4.4.0-betav15"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
